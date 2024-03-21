@@ -1,2 +1,2 @@
-# nw-interview
-Improve solutions of fork NW Tech Interview
+# Blog with Prisma and NestJS
+API for blog 
