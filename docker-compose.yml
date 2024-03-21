@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  database:
+    image: postgres:13.5
+    container_name: db-blog
+    restart: always
+    environment:
+      - POSTGRES_USER=app
+      - POSTGRES_PASSWORD=d!@O9p7.4Fg2a
+    volumes:
+      - database:/var/lib/postgresql/data
+    ports:
+      - '5432:5432'
+
+volumes:
+  database:
